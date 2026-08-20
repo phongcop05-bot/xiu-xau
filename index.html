@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 450px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #007bff;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .bio {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: left;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+
+        .tag {
+            background: #e9ecef;
+            color: #495057;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn-facebook { background-color: #1877f2; }
+        .btn-instagram { background-color: #e1306c; }
+        .btn-zalo { background-color: #0068ff; }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Thay link ảnh cá nhân của bạn vào src bên dưới -->
+        <img class="avatar" src="https://via.placeholder.com/150" alt="Ảnh đại diện">
+        
+        <h1>Tên Của Bạn</h1>
+        <div class="tagline">Học sinh / Sinh viên / Lập trình viên</div>
+        
+        <p class="bio">
+            Xin chào! Mình là một người cởi mở, thích khám phá công nghệ mới và trải nghiệm những điều thú vị trong cuộc sống. Rất vui được kết nối với mọi người!
+        </p>
+
+        <div class="section-title"><b>Sở thích</b></div>
+        <div class="interests">
+            <span class="tag">⚽ Đá bóng</span>
+            <span class="tag">🎵 Nghe nhạc</span>
+            <span class="tag">🎮 Chơi game</span>
+            <span class="tag">✈️ Du lịch</span>
+        </div>
+
+        <div class="section-title"><b>Kết nối với mình</b></div>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" class="btn btn-facebook">Facebook</a>
+            <a href="https://instagram.com" target="_blank" class="btn btn-instagram">Instagram</a>
+            <a href="https://zalo.me" target="_blank" class="btn btn-zalo">Zalo</a>
+        </div>
+    </div>
+
+</body>
+</html>
